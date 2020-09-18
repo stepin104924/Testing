@@ -93,22 +93,22 @@ float EQ2()
     {
        float S,U,A,T;
        printf("Enter the value of initial Velocity");
-       scanf("%d",&U);
+       scanf("%f",&U);
        printf("Enter the value of Acceleration");
-       scanf("%d",&A);
+       scanf("%f",&A);
        printf("Enter the value of Time");
-       scanf("%d",&T);
+       scanf("%f",&T);
        return U*T+0.5*A*T*T;
     }
    else if(temp=='u'||temp=='U')
     {
        float S,U,A,T;
        printf("Enter the value of Distance");
-       scanf("%d",&S);
+       scanf("%f",&S);
        printf("Enter the value of Acceleration");
-       scanf("%d",&A);
+       scanf("%f",&A);
        printf("Enter the value of Time");
-       scanf("%d",&T);
+       scanf("%f",&T);
        U=(S-0.5*A*T*T);
        return U/T;
     }
